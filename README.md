@@ -1,0 +1,2 @@
+# runonall
+Who needs ansible?
