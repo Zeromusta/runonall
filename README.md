@@ -2,21 +2,21 @@
 Who needs ansible?
 
 ## setup
-* ssh keys between your hosts [https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2]
-* commands.txt with the commands you want to run
-* hosts.txt with the hosts you want to run those commands on
+* [ssh keys between your hosts](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
+* commands.txt with the commands you want to run on each host
+* hosts.txt with all the hosts you want to run commands on
 
 ## run
-[you@hostname627 runonall]$ ./runonall.sh hosts.txt commands.txt
+`[you@hostname627 runonall]$ ./runonall.sh hosts.txt commands.txt`
 
 ## output
+```
 hostname452:
 hostname:
 hostname452
 grep findme /etc/some/file.properties:
 yep findme is on this line
 
-hostname453:
 hostname453:
 hostname:
 hostname453
@@ -27,3 +27,4 @@ can't run from findme
 
 hostname475:
 (and on and on for each host...)
+```
