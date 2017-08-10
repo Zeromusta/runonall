@@ -3,8 +3,8 @@ Who needs ansible?
 
 ## setup
 * [ssh keys between your hosts](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
-* commands.txt with the commands you want to run on each host
-* hosts.txt with all the hosts you want to run commands on
+* `commands.txt` with the commands you want to run on each host
+* `hosts.txt` with all the hosts you want to run commands on
 
 ## run
 `[you@hostname627 runonall]$ ./runonall.sh hosts.txt commands.txt`
